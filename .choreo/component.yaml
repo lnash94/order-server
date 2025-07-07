@@ -19,8 +19,8 @@ endpoints:
     type: GRPC
     # +optional Network level visibilities of the endpoint.
     # Accepted values: Project|Organization|Public(Default).
-    # networkVisibilities: 
-    #   - Public
+    networkVisibilities: 
+       - Project
     #   - Organization
     # +optional Path to the schema definition file. Defaults to wild card route if not provided
     # This is only applicable to REST or WS endpoint types.
