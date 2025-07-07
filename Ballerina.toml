@@ -2,12 +2,10 @@
 org = "hansaninissanka"
 name = "order_server"
 version = "0.1.0"
-distribution = "2201.11.0-20250127-101700-a4b67fe5"
+distribution = "2201.9.0"
 
 [build-options]
 observabilityIncluded = true
-
-[build-options]
 cloud = "k8s"
 platform = "choreo"
 ballerinaVersion = "2201.9.0"
